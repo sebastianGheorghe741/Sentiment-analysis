@@ -4,7 +4,7 @@ library(tidytext)
 library(tidyverse)
 library(dplyr)
 
-rtweet_app('AAAAAAAAAAAAAAAAAAAAAO4ZjAEAAAAAoUtYG%2F1CoXYnXw6Cojg1u51WJFY%3DD1LPl9XmPEkO1BGobDu4NZrks9jr5KxmVCRYwudQwxcHM5M3PZ')
+rtweet_app('')
 
 df <-search_tweets('crypto', n=5000, lang = 'en', include_rts = FALSE)
 class(df)
