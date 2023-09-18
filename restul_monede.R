@@ -12,7 +12,7 @@ library(rtweet)
 library(tm)
 library(ggplot2)
 
-rtweet_app('AAAAAAAAAAAAAAAAAAAAAO4ZjAEAAAAAoUtYG%2F1CoXYnXw6Cojg1u51WJFY%3DD1LPl9XmPEkO1BGobDu4NZrks9jr5KxmVCRYwudQwxcHM5M3PZ')
+rtweet_app('')
 
 
 df.btc <-search_tweets('bitcoin', n=15000, lang = 'en', include_rts = FALSE)
